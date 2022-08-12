@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx tailwind -i ./tailwind.css -o ./_site/css/style.css --watch",
+    "prod":"npx tailwind -i ./tailwind.css -o ./_site/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy",
+    "tailwindcss": "^3.0.23"
+  }
+}
